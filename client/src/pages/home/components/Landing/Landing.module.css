@@ -1,0 +1,45 @@
+.container{
+  width: 100%;
+  height: calc(100vh - var(--navbar-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wrapper{
+  height: 70%;
+  width: var(--center-width);
+  max-width: var(--max-center-width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.leftSection{
+  width: 50%;
+}
+
+.title{
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+.description{
+  margin-top: .5rem;
+  font-weight: 400;
+  color: var(--color-dark-5);
+  max-width: 60ch;
+}
+
+.getStartedBtn{
+  margin-top: 1rem;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius-1);
+  padding: .5rem 1rem;
+  width: fit-content;
+  cursor: pointer;
+}

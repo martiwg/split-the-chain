@@ -1,0 +1,52 @@
+.container{
+  width: 100%;
+  height: var(--navbar-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  height: 100%;
+  width: var(--center-width);
+  max-width: var(--max-center-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSection, .rightSection{
+  width: 20%;
+}
+
+.title{
+  font-weight: 500;
+}
+
+.middleSection{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.middleTxt{
+  font-size: .875rem;
+}
+
+.rightSection{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.walletBtn{
+  padding: .5rem 1rem;
+  border-radius: 100vw;
+  background-color: var(--color-white);
+  color: var(--color-text-black);
+  width: fit-content;
+}
